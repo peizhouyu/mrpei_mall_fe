@@ -57,7 +57,7 @@ var config = {
         *  而publicPath和filename特性的设置要保留
         */
         // path        : __dirname + '/dist/',
-        publicPath  : 'dev' === WEBPACK_ENV ? '/dist/' : '//s.mrpeimall.top/mmall-fe/dist/',
+        publicPath  : 'dev' === WEBPACK_ENV ? '/dist/' : '//s.mrpeimall.top/mall-fe/dist/',
         filename    : 'js/[name].js'
     },
     externals : {
